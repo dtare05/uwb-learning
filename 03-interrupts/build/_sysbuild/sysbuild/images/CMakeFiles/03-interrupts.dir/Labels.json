@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts-complete.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-build.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-configure.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-download.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-install.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-mkdir.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-patch.rule"
+		},
+		{
+			"file" : "/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"03-interrupts"
+		],
+		"name" : "03-interrupts"
+	}
+}

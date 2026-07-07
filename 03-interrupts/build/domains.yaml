@@ -1,0 +1,7 @@
+default: 03-interrupts
+build_dir: /Users/divyanshtare/uwb-learning/03-interrupts/build
+domains:
+  - name: 03-interrupts
+    build_dir: /Users/divyanshtare/uwb-learning/03-interrupts/build/03-interrupts
+flash_order:
+  - 03-interrupts

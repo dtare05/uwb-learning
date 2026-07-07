@@ -1,0 +1,13 @@
+# Target labels
+ 03-interrupts
+# Source files and their labels
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/CMakeFiles/03-interrupts-complete.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-build.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-configure.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-download.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-install.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-mkdir.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-patch.rule
+/Users/divyanshtare/uwb-learning/03-interrupts/build/_sysbuild/sysbuild/images/03-interrupts-prefix/src/03-interrupts-stamp/03-interrupts-update.rule
