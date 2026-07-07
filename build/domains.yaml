@@ -1,7 +1,0 @@
-default: blinky
-build_dir: /Users/divyanshtare/blinky/build
-domains:
-  - name: blinky
-    build_dir: /Users/divyanshtare/blinky/build/blinky
-flash_order:
-  - blinky
