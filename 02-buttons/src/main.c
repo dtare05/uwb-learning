@@ -15,6 +15,7 @@ int main(void)
 
     gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
     gpio_pin_configure_dt(&button, GPIO_INPUT);
+    //GPIO_INT_EDGE_TO_ACTIVE
     while (1) {
         int press = gpio_pin_get_dt(&button);
         printk("Button = %d\n", press);

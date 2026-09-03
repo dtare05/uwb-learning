@@ -7,6 +7,17 @@ static const struct gpio_dt_spec button =
     GPIO_DT_SPEC_GET(DT_ALIAS(sw0), gpios);
 static const struct gpio_dt_spec led =
     GPIO_DT_SPEC_GET(DT_ALIAS(led0), gpios);
+
+static struct gpio_callback button_cb_data;
+
+void button_pressed(const struct device *dev,
+                    struct gpio_callback *cb,
+                   uint32_t pins)
+{
+    gpio_pin_toggle_dt(&led);
+    printk("Interrupt!\n");
+}
+
 int main(void)
     {
     if (!gpio_is_ready_dt(&led) || !gpio_is_ready_dt(&button)) {
@@ -15,15 +26,12 @@ int main(void)
 
     gpio_pin_configure_dt(&led, GPIO_OUTPUT_ACTIVE);
     gpio_pin_configure_dt(&button, GPIO_INPUT);
+
+    gpio_pin_interrupt_configure_dt(&button, GPIO_INT_EDGE_TO_ACTIVE);
+    gpio_init_callback(&button_cb_data, button_pressed, BIT(button.pin));
+    gpio_add_callback(button.port, &button_cb_data);
     while (1) {
-        int press = gpio_pin_get_dt(&button);
-        printk("Button = %d\n", press);
-        if(press == 1){
-            gpio_pin_set_dt(&led, 1);
-        } else{
-            gpio_pin_set_dt(&led, 0);
-        }
-        k_msleep(SLEEP_TIME_MS);
+        k_msleep(10000);
     }
 
     return 0;
