@@ -22,6 +22,7 @@ events:
     candidate_directories:
       - "/Users/divyanshtare/.local/bin/"
       - "/Users/divyanshtare/anaconda3/bin/"
+      - "/Users/divyanshtare/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/opt/homebrew/bin/"
@@ -53,6 +54,7 @@ events:
     searched_directories:
       - "/Users/divyanshtare/.local/bin/uname"
       - "/Users/divyanshtare/anaconda3/bin/uname"
+      - "/Users/divyanshtare/anaconda3/condabin/uname"
       - "/opt/local/bin/uname"
       - "/opt/local/sbin/uname"
       - "/opt/homebrew/bin/uname"
@@ -65,6 +67,7 @@ events:
       ENV{PATH}:
         - "/Users/divyanshtare/.local/bin"
         - "/Users/divyanshtare/anaconda3/bin"
+        - "/Users/divyanshtare/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/opt/homebrew/bin"
@@ -123,6 +126,7 @@ events:
     candidate_directories:
       - "/Users/divyanshtare/.local/bin/"
       - "/Users/divyanshtare/anaconda3/bin/"
+      - "/Users/divyanshtare/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/opt/homebrew/bin/"
@@ -158,6 +162,9 @@ events:
       - "/Users/divyanshtare/anaconda3/bin/ninja-build"
       - "/Users/divyanshtare/anaconda3/bin/ninja"
       - "/Users/divyanshtare/anaconda3/bin/samu"
+      - "/Users/divyanshtare/anaconda3/condabin/ninja-build"
+      - "/Users/divyanshtare/anaconda3/condabin/ninja"
+      - "/Users/divyanshtare/anaconda3/condabin/samu"
       - "/opt/local/bin/ninja-build"
       - "/opt/local/bin/ninja"
       - "/opt/local/bin/samu"
@@ -221,6 +228,7 @@ events:
       ENV{PATH}:
         - "/Users/divyanshtare/.local/bin"
         - "/Users/divyanshtare/anaconda3/bin"
+        - "/Users/divyanshtare/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/opt/homebrew/bin"
@@ -271,6 +279,7 @@ events:
     candidate_directories:
       - "/Users/divyanshtare/.local/bin/"
       - "/Users/divyanshtare/anaconda3/bin/"
+      - "/Users/divyanshtare/anaconda3/condabin/"
       - "/opt/local/bin/"
       - "/opt/local/sbin/"
       - "/opt/homebrew/bin/"
@@ -306,6 +315,7 @@ events:
       ENV{PATH}:
         - "/Users/divyanshtare/.local/bin"
         - "/Users/divyanshtare/anaconda3/bin"
+        - "/Users/divyanshtare/anaconda3/condabin"
         - "/opt/local/bin"
         - "/opt/local/sbin"
         - "/opt/homebrew/bin"

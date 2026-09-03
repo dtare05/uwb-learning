@@ -1,7 +1,7 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 
-#define SLEEP_TIME_MS 10000
+#define SLEEP_TIME_MS 1000
 
 /* Get LED0 from the board's devicetree */
 static const struct gpio_dt_spec led =
